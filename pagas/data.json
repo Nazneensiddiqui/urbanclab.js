@@ -1,0 +1,103 @@
+{
+  "urbanclab": [
+    {
+      "id": "101",
+      "customername": "Rajender Prashad",
+      "phoneno": 9854216370,
+      "address": "h.no.95/12 Sivaji Nagar ",
+      "city": " Indore",
+      "date": "20/8/2024",
+      "service": "AC Service and Repair"
+    },
+    {
+      "id": "102",
+      "customername": "Vijay Kumar Singh",
+      "phoneno": 9184527863,
+      "address": "h.no.11/52 TTT Nagar ",
+      "city": " Bhopal",
+      "date": "11/5/2024",
+      "service": "Washing Machine Repair"
+    },
+    {
+      "id": "103",
+      "customername": "Shariq Khan",
+      "phoneno": 9425769832,
+      "address": "h.no.08/29 Nehru Nagar ",
+      "city": " Jabalpur",
+      "date": "05/6/2024",
+      "service": "Refrigerator Repair"
+    },
+    {
+      "id": "104",
+      "customername": "Gitanjali Gour",
+      "phoneno": 9521478630,
+      "address": "h.no.95/12 Gulmohar Colony",
+      "city": " Bhopal",
+      "date": "15/7/2024",
+      "service": "Microwave Repair"
+    },
+    {
+      "customername": "nazneen bano",
+      "phoneno": "07800906056",
+      "address": "H.N.45/18 Harshvardhana Nagar",
+      "city": "Indore",
+      "date": "2024-10-15",
+      "service": "Intense bathroom cleaning",
+      "id": "8a3d"
+    },
+    {
+      "customername": "Rajender prshad mishra",
+      "phoneno": "09854632178",
+      "address": "H.N.45/18 Harshvardhana Nagar",
+      "city": "Bina",
+      "date": "2024-10-25",
+      "service": "Bathroom & kitchen cleaning",
+      "id": "f9a2"
+    },
+    {
+      "customername": "Mohd. Aaliyaan",
+      "phoneno": "09111269940",
+      "address": "H.N.57/12 hoshangabad ",
+      "city": "Guna",
+      "date": "2024-10-19",
+      "service": "Washing Machine Repair",
+      "id": "d1c6"
+    },
+    {
+      "customername": "  Abhishek kumar",
+      "phoneno": "09854632178",
+      "address": "   H.N.45/18 Harshvardhana Nagar",
+      "city": "Vidisha",
+      "date": "2024-10-20",
+      "service": "Top repair",
+      "id": "75f6"
+    },
+    {
+      "id": "3588",
+      "customername": "Rajender prshad mishra",
+      "phoneno": "09854632178",
+      "address": "rajender@123gmail.com",
+      "city": "",
+      "date": "2024-10-25",
+      "service": ""
+    },
+    {
+      "id": "26d5",
+      "customername": "Rajender prshad mishra",
+      "phoneno": "09854632178",
+      "address": "rajender@123gmail.com",
+      "city": "",
+      "date": "2024-10-25",
+      "service": ""
+    },
+    {
+      "id": "6ef2",
+      "customername": "nazneen bano",
+      "phoneno": "07800906056",
+      "address": "hibabpl83@gmail.com",
+      "city": "",
+      "date": "2024-10-17",
+      "service": ""
+    }
+  ]
+}

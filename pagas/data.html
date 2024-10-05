@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Table</title>
+    <style>
+    body{ background-image: url("/m5.jpg");
+        background-repeat:no-repeat;
+        background-size: cover; height:500px;
+        
+    }
+    #demo{
+        margin-top: 50px;
+        margin-left: 100px;
+    }
+
+    *{
+    margin:0 ;
+    padding: 0;
+
+}
+
+body{
+    overflow-x: hidden;
+    font-family: verdana;
+   
+  }
+
+#nav{
+    background-color: rgb(243, 253, 250);
+    height: 80px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    color: rgb(88, 84, 84);
+    /* position: fixed; */
+
+
+
+
+}
+
+#nav ul {
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+}
+
+#nav a{
+    text-decoration: none;
+    color: rgb(90, 88, 88);
+}
+
+#b1{
+    height: 40px;
+    width: 240px;
+    border: 1px solid rgb(226, 220, 220);
+    border-radius: 10px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    left: 10px;
+    top: 2px;
+    gap: 20px;
+    margin-left: 2px;
+  
+}
+#b1 i{
+    margin-left: 4px;
+    gap: 10px;
+}
+   
+#demo{
+    backdrop-filter: blur(20px);
+}
+    </style>
+
+</head>
+<body>
+    <div id="nav">
+        <img src="/logo.webp" alt=" image is not found">
+        <ul type="none">
+            <li><a href="update.html">Beauty</a></li>
+            <li><a href="update.html">Homes</a></li>
+            <li><a href="update.html">Native</a></li>
+        </ul>
+        <div id="b1"> <i class="fa-sharp fa-light fa-location-dot"></i>
+            <p style="font-size: 14px;">Connaught Place New</p>
+        </div>
+        <div id="b1"> <i class="fa-solid fa-magnifying-glass"></i>
+            <p  style="font-size: 14px;">Serching For AC Service</p>
+        </div>
+
+        <ul type="none">
+            <li><i class="fa-regular fa-clipboard-list"></i></li>
+            <li><i class="fa-regular fa-cart-shopping"></i></li>
+            <li><i class="fa-regular fa-circle-user"></i></li>
+        </ul>
+
+    </div>
+
+      <p id = "demo"></p>
+    <script src="data.js"></script>
+</body>
+</html>

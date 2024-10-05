@@ -1,0 +1,205 @@
+*{
+    margin:0 ;
+    padding: 0;
+
+}
+
+body{
+    overflow-x: hidden;
+    font-family: verdana;
+   
+  }
+
+#nav{
+    background-color: rgb(243, 253, 250);
+    height: 80px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    color: rgb(88, 84, 84);
+    /* position: fixed; */
+
+
+
+
+}
+
+#nav ul {
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+}
+
+#nav a{
+    text-decoration: none;
+    color: rgb(90, 88, 88);
+}
+
+#b1{
+    height: 40px;
+    width: 240px;
+    border: 1px solid rgb(226, 220, 220);
+    border-radius: 10px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    left: 10px;
+    top: 2px;
+    gap: 20px;
+    margin-left: 2px;
+  
+}
+#b1 i{
+    margin-left: 4px;
+    gap: 10px;
+}
+
+
+*{ margin: 0;
+    padding:0 ;
+    color: rgb(53, 51, 51);
+    }
+    
+    .form{
+        width: 500px;
+        margin-left: 400px;
+        border: 2px solid rgb(176, 176, 204);
+        padding: 40px;
+        padding-left: 80px;
+        backdrop-filter: blur(10px);
+        /* background-image: url("/m5.jpg"); */
+        /* background-repeat:no-repeat; */
+        background-size: cover; 
+        box-shadow: 1px 1px 1px 1px;
+        border-radius: 20px;
+    }
+    
+    body{ background-image: url("/m5.jpg");
+        background-repeat:no-repeat;
+        background-size: cover; height:500px;
+        
+    }
+
+    body{
+        overflow-x: hidden;
+        font-family: verdana;
+       
+      }
+h2{
+    color: rgb(21, 21, 92);
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+    .name input{
+        height: 30px;
+        width: 450px;
+        background-color: rgb(255, 238, 238);
+   position: relative;
+   top: 40px;
+   border: 1px solid grey;
+   border-radius: 20px;
+   padding-left: 10px;
+}
+
+    .email input{
+        height: 30px;
+        width: 450px;
+        background-color: rgb(255, 238, 238);
+        margin-top: 20px;
+        border: 1px solid grey;
+        border-radius: 20px;
+        padding-left: 10px;
+     
+    }
+
+
+
+.city{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    margin-top: 20px;
+}
+
+.city1 select{
+    height: 35px;
+    width: 450px;
+    background-color: rgb(255, 238, 238);
+    border: 1px solid grey;
+   border-radius: 20px;
+   padding-left: 10px;
+   color: black;
+
+  
+
+}
+
+
+    
+    
+    .select select{
+        height: 35px;
+        width: 225px;
+        background-color: rgb(255, 238, 238);
+        border: 1px solid grey;
+        border-radius: 20px;
+        padding-left: 10px;
+        color: black;
+      
+    }
+    
+    .date input{
+        height: 33px;
+        width: 200px;
+        background-color: rgb(255, 238, 238);
+        border: 1px solid grey;
+        border-radius: 20px;
+        padding-left: 10px;
+        color: black;
+    }
+    
+    
+    @media screen and (max-width: 425px) {
+        .form {
+          padding: 1em;
+          margin-left: 0px;
+          /* width: 100%; */
+    
+             
+        }
+        .name label,input{font-size: 0.9em;}
+        .email label,input{font-size: 0.9em;}
+        .select label,select{font-size: 0.9em;}
+        .date label,input{font-size: 0.9em;}
+        .date label,input{font-size: 0.9em;}
+         label{font-size: 0.9em;}
+         .redo input{font-size: 0.9em;}
+         .but input,button{font-size: 0.9em;}
+    
+    
+        /* .form-group label,
+        .form-group input,
+        .form-group textarea,
+        .form-group button {
+          font-size: 0.9em;
+        } */
+      }
+
+      .form button {
+        width: 200px;
+      position: relative;
+      left: 120px;
+        padding: 10px;
+        border: none;
+        border-radius: 20px;
+        background-color: #0e82f7;
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+
+      .form button:hover {
+        background-color: #0353a8;
+      }

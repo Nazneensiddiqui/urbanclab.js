@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Table</title>
+    <link rel="stylesheet" href="display.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="nav">
+        <img src="/logo.webp" alt=" image is not found">
+        <ul type="none">
+            <li><a href="data.html">Beauty</a></li>
+            <li><a href="date.html">Homes</a></li>
+            <li><a href="date.html">Native</a></li>
+        </ul>
+        <div id="b1"> <i class="fa-sharp fa-light fa-location-dot"></i>
+            <p style="font-size: 14px;">Connaught Place New</p>
+        </div>
+        <div id="b1"> <i class="fa-solid fa-magnifying-glass"></i>
+            <p  style="font-size: 14px;">Serching For AC Service</p>
+        </div>
+
+        <ul type="none">
+            <li><i class="fa-regular fa-clipboard-list"></i></li>
+            <li><i class="fa-regular fa-cart-shopping"></i></li>
+            <li><i class="fa-regular fa-circle-user"></i></li>
+        </ul>
+
+    </div>
+    <div class="form">
+        <img src="/logo.webp">
+        <h2 align="center">Appliance Repair Request Form</h2>
+        <form action="data.html" >
+            <div class="name">
+                <!-- <label for=""> Customer Name</label><br> -->
+                <input type="text" placeholder="   name" id="name"><br><br>
+            </div>
+            <br><br>
+            <div class="email">
+                <!-- <label for="">Address</label><br> -->
+                <input type="text" placeholder=" Your Address" id="email"><br><br>
+            </div>
+
+           <div class="email">
+                <!-- <label for="">Phone Number</label><br> -->
+                <input type="text" placeholder=" Phone no." id="pho"><br><br>
+            </div>
+
+            <div class="city1">
+                <!-- <label for="">Service</label> <br> -->
+                           <select id="evey2">
+                            <option value="" id="evey2">Service</option>
+                            <option value="" id="evey2">Intense bathroom cleaning</option>
+                            <option value="" id="evey2">Bathroom & kitchen cleaning</option>
+                            <option value="" id="evey2">Power saver AC service</option>
+                            <option value="" id="evey2">AC repair (split/ window)</option>
+                            <option value="" id="evey2">Washing Machine Repair</option>
+                            <option value="" id="evey2">Water Purifier Repair</option>
+                            <option value="" id="evey2">Fan repair</option>
+                            <option value="" id="evey2">Top repair</option>
+                            <option value="" id="evey2">Switch/socket replacement</option>
+                            <option value="" id="evey2">Drill & harg (wall decor)</option>
+                            <option value="" id="evey2">Ceilling fan regulator replacement</option>
+                        </select>
+                    </div>
+
+
+            <div class="city">
+                <div class="select">
+                <select id="evey">
+                    <option value="" id="evey">City</option>
+                    <option value="" id="evey">Bhopal</option>
+                    <option value="" id="evey">Indore</option>
+                    <option value="" id="evey">Ujain</option>
+                    <option value="" id="evey">Jabalpur</option>
+                    <option value="" id="evey">Itarsi</option>
+                    <option value="" id="evey">Guna</option>
+                    <option value="" id="evey">Bina</option>
+                  </select>
+                </div>
+
+
+                <div class="date">
+                    <input type="date" id="date">
+                </div>
+            </div>
+          <br>
+                 <button id="btn1">Data Save</button>
+            </div>
+        </form>
+
+
+
+
+      <script src="display.js"></script>
+</body>
+</html>
